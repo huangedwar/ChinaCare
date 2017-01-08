@@ -1,0 +1,50 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+        <title>Home</title>
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+    </head>
+    <body ng-app = "chinaCare" >
+    <div class = "container">
+        <div>
+            <nav class="navbar navbar-default">
+                <div class="container-fluid">
+                    <div class = navbar-header>
+                        <a class="navbar-brand" href="#"><img src="images/logo.png"></a>
+                    </div>
+                    <div class="collapse navbar-collapse" id="navbar">
+                        <ul class="nav navbar-nav navbar-right">
+                            <li><a href="#"> Home </a></li>
+                            <li><a href="#/playgroup"> Playgroup </a></li>
+                            <li><a href="#/board"> Board </a></li>
+                            <li><a href="#/about"> About </a></li>
+                            <li><a href="#/contact"> Contact Us </a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <div ng-view>
+
+        </div>
+        <br>
+        <footer>
+            <div class="row">
+                <div class="col-lg-12">
+                    <p>Learn more at the <a href="http://asacc.uconn.edu/">Asian American Cultural Center!</a></p>
+                </div>
+            </div>
+        </footer>
+    </div>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.1/angular.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.1/angular-route.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <script type="https://github.com/Yappli/angular-css-injector"></script>
+        <script src="javascript/app.js" type="text/javascript"></script>
+    </body>
+
+
+</html>
